@@ -14,6 +14,7 @@
 		3B8534AD1F143C8300722CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8534AB1F143C8300722CDE /* LaunchScreen.storyboard */; };
 		3B8534B81F143C8300722CDE /* NESWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8534B71F143C8300722CDE /* NESWTests.swift */; };
 		3B8534C31F143C8300722CDE /* NESWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8534C21F143C8300722CDE /* NESWUITests.swift */; };
+		3B8534D31F143F5400722CDE /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8534D21F143F5400722CDE /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3B8534BE1F143C8300722CDE /* NESWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8534C21F143C8300722CDE /* NESWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWUITests.swift; sourceTree = "<group>"; };
 		3B8534C41F143C8300722CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8534D21F143F5400722CDE /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3B8534A91F143C8300722CDE /* Assets.xcassets */,
 				3B8534AB1F143C8300722CDE /* LaunchScreen.storyboard */,
 				3B8534AE1F143C8300722CDE /* Info.plist */,
+				3B8534D21F143F5400722CDE /* OtherViewController.swift */,
 			);
 			path = NESW;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3B85349E1F143C8300722CDE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MWZG5D74NN;
 						ProvisioningStyle = Automatic;
 					};
 					3B8534B21F143C8300722CDE = {
@@ -261,6 +265,7 @@
 			files = (
 				3B8534A51F143C8300722CDE /* ViewController.swift in Sources */,
 				3B8534A31F143C8300722CDE /* AppDelegate.swift in Sources */,
+				3B8534D31F143F5400722CDE /* OtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MWZG5D74NN;
 				INFOPLIST_FILE = NESW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.NESW;
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MWZG5D74NN;
 				INFOPLIST_FILE = NESW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.NESW;
@@ -507,6 +514,7 @@
 				3B8534C91F143C8300722CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B8534CA1F143C8300722CDE /* Build configuration list for PBXNativeTarget "NESWTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				3B8534CC1F143C8300722CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B8534CD1F143C8300722CDE /* Build configuration list for PBXNativeTarget "NESWUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				3B8534CF1F143C8300722CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
